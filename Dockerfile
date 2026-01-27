@@ -1,5 +1,5 @@
 # Use the official OpenJDK 17 JDK image
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk
 
 # Copy compiled Java class
 COPY HelloWorld.class /
