@@ -1,9 +1,9 @@
-# Recommended full JDK version
-FROM openjdk:17.0.7-jdk
+# Use the official OpenJDK 17 JDK image
+FROM openjdk:17-jdk-slim
 
-# Or lighter slim version
-# FROM openjdk:17.0.7-jdk-slim
-
+# Copy compiled Java class
 COPY HelloWorld.class /
+
+# Run the Java program
 CMD ["java", "HelloWorld"]
 
