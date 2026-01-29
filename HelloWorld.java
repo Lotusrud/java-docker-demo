@@ -4,7 +4,7 @@ public class HelloWorld {
 
 	//keep container running
 	while (true) {
-		Thread,sleep(10000);
+		Thread.sleep(10000);
 	}
     }
 }
